@@ -214,6 +214,8 @@ module.exports = function(grunt) {
 
 	grunt.registerTask( 'Build the plugin.', [
 		'Development tasks.',
+		'clean',
+		'copy',
 		'compress'
 	] );
 
