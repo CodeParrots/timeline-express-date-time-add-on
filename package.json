@@ -1,0 +1,43 @@
+{
+  "name": "timeline-express-date-time-add-on",
+  "title": "Timeline Express - Date - Time - Add-On",
+  "version": "1.0.0",
+  "description": "Assign and display times to your announcements with a time selector field alongside the announcement dates.",
+  "main": "index.js",
+  "scripts": {
+    "version": "grunt 'Development tasks.' && git add -A .",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Code Parrots",
+  "site": "https://www.wp-timelineexpress.com",
+  "license": "GPLv2",
+  "dependencies": {
+    "grunt": "^1.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeParrots/timeline-express-date-time-add-on/issues"
+  },
+  "devDependencies": {
+    "grunt-auto-install": "^0.3.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-wp-readme-to-markdown": "^2.0.1",
+    "grunt-text-replace": "^0.4.0",
+    "matchdep": "^2.0.0",
+    "grunt-dev-update": "^2.3.0",
+    "grunt-menu": "^1.0.2"
+  },
+  "badges": [
+    "[![Build Status](https://travis-ci.org/<%= pkg.repository %>.svg?branch=master)](https://travis-ci.org/<%= pkg.repository %>)",
+    "[![License](https://img.shields.io/badge/license-GPL--2.0-brightgreen.svg)](https://github.com/<%= pkg.repository %>/blob/master/license.txt)",
+    "[![PHP 7.0](https://img.shields.io/badge/php-<% print(encodeURI(7.0)) %>-8892bf.svg)](https://secure.php.net/supported-versions.php)",
+    "[![WordPress plugin](https://img.shields.io/wordpress/plugin/v/<%= pkg.name %>.svg)](https://wordpress.org/plugins/<%= pkg.name %>/)",
+    "[![WordPress](https://img.shields.io/wordpress/v/<%= pkg.name %>.svg)](https://img.shields.io/wordpress/v/<%= pkg.name %>.svg)",
+    "[![WordPress](https://img.shields.io/wordpress/plugin/dt/<%= pkg.name %>.svg)](https://wordpress.org/plugins/<%= pkg.name %>/)"
+  ]
+}

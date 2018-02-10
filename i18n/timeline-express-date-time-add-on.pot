@@ -1,0 +1,54 @@
+# Copyright (c) 2018 Code Parrots. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: Timeline Express - Date - Time Add-On 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/EvanHerman/Timeline-Express/issues\n"
+"POT-Creation-Date: 2018-02-07 16:04:53+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n1.0.1\n"
+
+#: timeline-express-date-time-add-on.php:50
+msgid "Announcement Date & Time"
+msgstr ""
+
+#: timeline-express-date-time-add-on.php:51
+msgid "Select the time that this announcement occured or will occur on."
+msgstr ""
+
+#: timeline-express-date-time-add-on.php:61
+msgid "Announcement Date Type"
+msgstr ""
+
+#: timeline-express-date-time-add-on.php:62
+msgid "Customize the date format for this announcement."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Timeline Express - Date - Time Add-On"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.wp-timelineexpress.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Assign and display times to your announcements with a time selector field "
+"alongside the announcement dates."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Code Parrots"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.codeparrots.com"
+msgstr ""
