@@ -1,7 +1,7 @@
 {
   "name": "timeline-express-date-time-add-on",
   "title": "Timeline Express - Date - Time - Add-On",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "Assign and display times to your announcements with a time selector field alongside the announcement dates.",
   "main": "index.js",
   "scripts": {
