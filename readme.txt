@@ -6,7 +6,7 @@ Requires at least: WP 4.0 & Timeline Express 1.2
 Tested up to: 4.9
 Stable tag: 1.0.0
 License: GPLv2 or later
-
+t
 Assign and display times alongside the announcement dates in Timeline Express announcements.
 
 == Description ==
