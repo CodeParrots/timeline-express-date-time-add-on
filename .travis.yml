@@ -13,7 +13,7 @@ branches:
   only:
     - /^v\d.*$/
     - master
-    - development
+    - develop
 
 php:
   - 5.6
