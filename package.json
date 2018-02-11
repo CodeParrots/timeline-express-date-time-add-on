@@ -10,7 +10,8 @@
   },
   "author": "Code Parrots",
   "site": "https://www.wp-timelineexpress.com",
-  "license": "GPLv2",
+  "license": "GPL-2.0",
+  "repository": "codeparrots/timeline-express-date-time-add-on",
   "dependencies": {
     "grunt": "^1.0.2"
   },
