@@ -11,7 +11,7 @@
   "author": "Code Parrots",
   "site": "https://www.wp-timelineexpress.com",
   "license": "GPL-2.0",
-  "repository": "codeparrots/timeline-express-date-time-add-on",
+  "repository": "CodeParrots/timeline-express-date-time-add-on",
   "dependencies": {
     "grunt": "^1.0.2"
   },
