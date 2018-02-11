@@ -37,7 +37,7 @@
   "badges": [
     "[![Build Status](https://travis-ci.org/<%= pkg.repository %>.svg?branch=master)](https://travis-ci.org/<%= pkg.repository %>)",
     "[![License](https://img.shields.io/badge/license-GPL--2.0-brightgreen.svg)](https://github.com/<%= pkg.repository %>/blob/master/license.txt)",
-    "[![PHP 7.0](https://img.shields.io/badge/php-<% print(encodeURI(7.0)) %>-8892bf.svg)](https://secure.php.net/supported-versions.php)",
+    "[![PHP 5.6](https://img.shields.io/badge/php-<% print(encodeURI(5.6)) %>-8892bf.svg)](https://secure.php.net/supported-versions.php)",
     "[![WordPress plugin](https://img.shields.io/wordpress/plugin/v/<%= pkg.name %>.svg)](https://wordpress.org/plugins/<%= pkg.name %>/)",
     "[![WordPress](https://img.shields.io/wordpress/v/<%= pkg.name %>.svg)](https://img.shields.io/wordpress/v/<%= pkg.name %>.svg)",
     "[![WordPress](https://img.shields.io/wordpress/plugin/dt/<%= pkg.name %>.svg)](https://wordpress.org/plugins/<%= pkg.name %>/)"
