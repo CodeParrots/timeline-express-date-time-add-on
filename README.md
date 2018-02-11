@@ -6,12 +6,13 @@
 **Plugin URI:** https://www.wp-timelineexpress.com  
 **Requires at least:** WP 4.0 & Timeline Express 1.2  
 **Tested up to:** 4.9  
+**Requires PHP:** 5.6  
 **Stable tag:** 1.0.0  
 **License:** GPLv2 or later  
 
 Assign and display times alongside the announcement dates in Timeline Express announcements.
 
-[![Build Status](https://travis-ci.org/.svg?branch=master)](https://travis-ci.org/) [![License](https://img.shields.io/badge/license-GPL--2.0-brightgreen.svg)](https://github.com//blob/master/license.txt) [![PHP 7.0](https://img.shields.io/badge/php-7-8892bf.svg)](https://secure.php.net/supported-versions.php) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/timeline-express-date-time-add-on.svg)](https://wordpress.org/plugins/timeline-express-date-time-add-on/) [![WordPress](https://img.shields.io/wordpress/v/timeline-express-date-time-add-on.svg)](https://img.shields.io/wordpress/v/timeline-express-date-time-add-on.svg) [![WordPress](https://img.shields.io/wordpress/plugin/dt/timeline-express-date-time-add-on.svg)](https://wordpress.org/plugins/timeline-express-date-time-add-on/)  
+[![Build Status](https://travis-ci.org/codeparrots/timeline-express-date-time-add-on.svg?branch=master)](https://travis-ci.org/codeparrots/timeline-express-date-time-add-on) [![License](https://img.shields.io/badge/license-GPL--2.0-brightgreen.svg)](https://github.com/codeparrots/timeline-express-date-time-add-on/blob/master/license.txt) [![PHP 5.6](https://img.shields.io/badge/php-5.6-8892bf.svg)](https://secure.php.net/supported-versions.php) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/timeline-express-date-time-add-on.svg)](https://wordpress.org/plugins/timeline-express-date-time-add-on/) [![WordPress](https://img.shields.io/wordpress/v/timeline-express-date-time-add-on.svg)](https://img.shields.io/wordpress/v/timeline-express-date-time-add-on.svg) [![WordPress](https://img.shields.io/wordpress/plugin/dt/timeline-express-date-time-add-on.svg)](https://wordpress.org/plugins/timeline-express-date-time-add-on/)  
 
 ## Description ##
 
@@ -44,13 +45,13 @@ Yes! For each announcement you have the ability to choose how the dates are disp
 
 ## Changelog ##
 
-### 1.0.0 - February xx, 2018 ###
+### 1.0.0 - February 11th, 2018 ###
 * Initial release.
 
 ## Developers ##
 
 Filters:
-`timeline_express_date_time_formats` - Add your own date formats to the announcement.
+<strong>timeline_express_date_time_formats</strong> - Add your own date formats to the announcement.
 
 **Example:**
 <pre>
@@ -67,7 +68,7 @@ function timeline_express_demo_custom_date_format( $date_formats ) {
 add_filter( 'timeline_express_date_time_formats', 'timeline_express_demo_custom_date_format' );
 </pre>
 
-`timeline_express_date_time_query_args` - Filter the query run for the date time add-on.
+<strong>timeline_express_date_time_query_args</strong> - Filter the query run for the date time add-on.
 
 **Example:**
 <pre>
