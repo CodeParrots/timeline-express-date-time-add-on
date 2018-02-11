@@ -4,6 +4,7 @@ Tags: timeline, express, addon, add-on, date, timepicker, announcement
 Plugin URI: https://www.wp-timelineexpress.com
 Requires at least: WP 4.0 & Timeline Express 1.2
 Tested up to: 4.9
+Requires PHP: 5.6
 Stable tag: 1.0.0
 License: GPLv2 or later
 
@@ -40,13 +41,13 @@ Yes! For each announcement you have the ability to choose how the dates are disp
 
 == Changelog ==
 
-= 1.0.0 - February xx, 2018 =
+= 1.0.0 - February 11th, 2018 =
 * Initial release.
 
 == Developers ==
 
 Filters:
-`timeline_express_date_time_formats` - Add your own date formats to the announcement.
+<strong>timeline_express_date_time_formats</strong> - Add your own date formats to the announcement.
 
 **Example:**
 <pre>
@@ -63,7 +64,7 @@ function timeline_express_demo_custom_date_format( $date_formats ) {
 add_filter( 'timeline_express_date_time_formats', 'timeline_express_demo_custom_date_format' );
 </pre>
 
-`timeline_express_date_time_query_args` - Filter the query run for the date time add-on.
+<strong>timeline_express_date_time_query_args</strong> - Filter the query run for the date time add-on.
 
 **Example:**
 <pre>
