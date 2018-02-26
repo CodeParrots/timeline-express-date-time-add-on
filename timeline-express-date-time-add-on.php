@@ -33,6 +33,17 @@ if ( ! defined( 'WPINC' ) ) {
 
 }
 
+/**
+ * Localization
+ * Include our textdomain and translation files
+ **/
+function tedt_text_domain_init() {
+
+	load_plugin_textdomain( 'timeline-express-date-time-add-on', false, dirname( plugin_basename( __FILE__ ) ) . '/i18n' );
+
+}
+add_action( 'init', 'tedt_text_domain_init' );
+
 // Include required files.
 include_once plugin_dir_path( __FILE__ ) . '/constants.php';
 include_once TIMELINE_EXPRESS_DATE_TIME_PATH . 'lib/migration.php';
