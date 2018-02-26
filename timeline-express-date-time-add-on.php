@@ -52,9 +52,9 @@ function tedt_text_domain_init() {
 		$mo_path_split  = explode( '/', $mofile );
 
 		if (
-		'timeline-express-date-time-add-on' !== $domain
-		|| ! is_dir( $local_i18n_dir )
-		|| ! is_file( $local_i18n_dir . end( $mo_path_split ) )
+			'timeline-express-date-time-add-on' !== $domain
+			|| ! is_dir( $local_i18n_dir )
+			|| ! is_file( $local_i18n_dir . end( $mo_path_split ) )
 		) {
 
 			return $mofile;
