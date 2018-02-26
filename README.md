@@ -45,6 +45,12 @@ Yes! For each announcement you have the ability to choose how the dates are disp
 
 ## Changelog ##
 
+### 1.0.1 - February 26th, 2018 ###
+* Tweak: Ensure plugin works with Timeline Express free/pro.
+* Tweak: Allow translation files to be loaded from theme root (see i18n/how-to.txt).
+* Tweak: Hide migration notice when plugin is activated without Timeline Express free/pro.
+* Tweak: Update admin notice styles on activation.
+
 ### 1.0.0 - February 11th, 2018 ###
 * Initial release.
 
