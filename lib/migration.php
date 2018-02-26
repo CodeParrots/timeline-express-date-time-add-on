@@ -133,7 +133,7 @@ final class Timeline_Express_Date_Time_Migrations {
 
 		printf(
 			'<div class="notice notice-warning tedt-migration" style="background: url(\'%1$s\') #fff no-repeat bottom right; background-size: 125px;">
-				<h3>Timeline Express - Date - Time Add-On</h3>
+				<h3 style="margin-bottom: 0;">Timeline Express - Date - Time Add-On</h3>
 				<p style="max-width:90%%;">%2$s</p>
 				<p>%3$s %4$s</p>
 			</div>',
