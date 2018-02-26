@@ -33,6 +33,43 @@ if ( ! defined( 'WPINC' ) ) {
 
 }
 
+/**
+ * Localization
+ * Include our textdomain and translation files
+ **/
+function tedt_text_domain_init() {
+
+	/**
+	 * Load the text domain from the theme root (Note: The theme/timeline-express/i18n/ directory)
+	 *
+	 * @since 2.0.0
+	 *
+	 * @return Custom mofile path if timeline-express/i18n/ is found in the theme root, else default mofile path.
+	 */
+	add_filter( 'load_textdomain_mofile', function( $mofile, $domain ) {
+
+		$local_i18n_dir = trailingslashit( get_stylesheet_directory() ) . 'timeline-express/i18n/';
+		$mo_path_split  = explode( '/', $mofile );
+
+		if (
+			'timeline-express-date-time-add-on' !== $domain
+			|| ! is_dir( $local_i18n_dir )
+			|| ! is_file( $local_i18n_dir . end( $mo_path_split ) )
+		) {
+
+			return $mofile;
+
+		}
+
+		return $local_i18n_dir . end( $mo_path_split );
+
+	}, 10, 2 );
+
+	load_plugin_textdomain( 'timeline-express-date-time-add-on', false, dirname( plugin_basename( __FILE__ ) ) . '/i18n' );
+
+}
+add_action( 'init', 'tedt_text_domain_init' );
+
 // Include required files.
 include_once plugin_dir_path( __FILE__ ) . '/constants.php';
 include_once TIMELINE_EXPRESS_DATE_TIME_PATH . 'lib/migration.php';
