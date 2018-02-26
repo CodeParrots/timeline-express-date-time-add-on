@@ -41,20 +41,22 @@ include_once TIMELINE_EXPRESS_DATE_TIME_PATH . 'lib/migration.php';
  * Ensure that Timeline Express free or pro is active, else deactivate this add-on and display a notice
  *
  * @since 1.0.0
- */if ( ! function_exists( 'is_plugin_active' ) ) {
+ */
+if ( ! function_exists( 'is_plugin_active' ) ) {
 
 	include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 
 }
 
-if ( ! is_plugin_active( 'timeline-express-pro/timeline-express-pro.php' ) ) {
+if ( ! is_plugin_active( 'timeline-express/timeline-express.php' ) && ! is_plugin_active( 'timeline-express-pro/timeline-express-pro.php' ) ) {
 
 	deactivate_plugins( plugin_basename( __FILE__ ) );
 
 	add_action( 'admin_notices', function() {
 		?>
 		<style>
-		#message.updated {
+		#message.updated,
+		.notice.tedt-migration {
 			display: none;
 		}
 		.codeparrots-bg.cp-flying-parrot {
