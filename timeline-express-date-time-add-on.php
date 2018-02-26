@@ -4,7 +4,7 @@
 Plugin Name: Timeline Express - Date - Time Add-On
 Plugin URI: https://www.wp-timelineexpress.com
 Description: Assign and display times to your announcements with a time selector field alongside the announcement dates.
-Version: 1.0.0
+Version: 1.0.1
 Author: Code Parrots
 Text Domain: timeline-express-date-time-add-on
 Author URI: https://www.codeparrots.com
